@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "GreedyCashAndEarn"
 include ':app'
-include ':networkingpart'
