@@ -1,5 +1,6 @@
 package com.beasthub.greedycashandearn
 
+import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Intent
 import android.media.MediaPlayer
@@ -75,6 +76,7 @@ class MainActivity : AppCompatActivity() {
 
     private var mediaPlayer: MediaPlayer? = null
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
